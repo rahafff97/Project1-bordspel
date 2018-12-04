@@ -6,7 +6,7 @@ def setup():
          kaart_Image.append(loadImage (str(i)+".jpg") )
 
 def draw ():
-    background
+    background(loadImage("backgroundd.jpg"))
     j=0
     for he in range (4):
         for wd in range (5):
